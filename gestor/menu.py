@@ -27,5 +27,5 @@ def iniciar():
        print("Borrando un cliente...\n")
      if opcion == '6':
        print("Saliendo...\n")
-     break
-  input("\nPresiona ENTER para continuar...")
+       break
+input("\nPresiona ENTER para continuar...")
