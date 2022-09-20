@@ -7,6 +7,7 @@ authors = ["Replit user <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 seaborn = "^0.12.0"
+unittest = "^0.0"
 
 [tool.poetry.dev-dependencies]
 
