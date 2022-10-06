@@ -17,10 +17,9 @@ class Clientes:
  # Lista de clientes
   lista = []
   with open(config.DATABASE_PATH, newline="\n") as archivo:
-    reader = csv.reader(archivo)
+    reader = csv.reader(archivo, delimiter=",")
     for dni, nombre, apellido in reader:
-      cliente = Cliente(dni, nombre, apellido)
-      lista.append(cliente)
+      lista.append(Cliente(dni, nombre, apellido))
   print(lista)
   @staticmethod
   def buscar(dni):
